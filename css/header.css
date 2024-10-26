@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(34, 34, 34);
+    padding: 18px 0;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 41px;
+}
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 33px;
+}
+
+@media(max-width: 1024px) {
+
+}
+@media(max-width: 767px) {
+
+}
+

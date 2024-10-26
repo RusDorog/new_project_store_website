@@ -1,0 +1,94 @@
+.assortments {
+    margin-bottom: 96px;
+}
+.assortments__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+.assortments__card {
+    min-height: 260px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 105px;
+}
+.big {
+    padding-top: 65px;
+}
+.women {
+    background-image: url('../images/Layer\ 43.png');
+}
+.men {
+    background-image: url('../images/Rectangle\ 30.png');
+}
+.kids {
+    background-image: url('../images/Rectangle\ 31.png');
+}
+.assecories {
+    background-image: url('../images/Rectangle\ 20.png');
+    max-width: 1140px;
+    min-height: 180px;
+    grid-column: 1 / 6;
+}
+.assortments__discount-text  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.decoration {
+    text-transform: uppercase;
+    color: rgb(241, 109, 127)
+}
+
+@media(max-width: 1024px) {
+    .assortments__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 232px);
+        gap: 20px;
+    }
+    .assortments__card {
+        background-color: rgba(33, 22, 22, 0.7);
+        min-height: 167px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 59px;
+    }
+    .assecories {
+        background-image: url('../images/Rectangle\ 20.png');
+        max-width: 734px;
+        min-height: 115px;
+        grid-column: 1 / 6;
+    }
+    .big {
+        padding-top: 33px;
+    }
+}
+@media(max-width: 767px) {
+    .assortments__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .assortments__card {
+        background-color: rgba(33, 22, 22, 0.7);
+        min-height: 247px;
+        background-size: contain;
+        padding-top: 105px;
+    }
+    .big {
+        background-color: rgba(33, 22, 22, 0.7);
+        padding-top: 30px;
+    }
+    .assecories {
+        background-image: url('../images/Rectangle\ 20.png');
+        max-width: 343px;
+        min-height: 111px;
+        background-size: cover;
+    }
+}
